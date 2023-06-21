@@ -188,7 +188,7 @@ subscribeTicks()
     // const metaApi = new MetaApi(process.env.METAAPITOKEN)
     // console.log(metaApi.metatraderAccountApi.getAccounts())
 
-    
+    console.log(process.env.DERIVAPPID)
 
     app.listen(process.env.PORT || 5000, () => {
         console.log(`backend server is running on ${process.env.PORT}`)
