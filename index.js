@@ -74,7 +74,7 @@ const tickResponse = async (res) => {
         const hours = date.getHours()
         const minutes = date.getMinutes()
         const seconds = date.getSeconds()
-        // console.log(`${hours}:${minutes}:${seconds}`)
+        console.log(`${hours}:${minutes}:${seconds}`)
         // console.log(date)
         if (seconds % 59 === 0) {
             // console.log('test')
